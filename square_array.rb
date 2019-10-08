@@ -7,7 +7,7 @@ def square_array(array)
     new_array.push(item2)
     
   end
-  
+  return new_array
 end
 
 p square_array([1,2,3])
