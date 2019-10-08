@@ -5,9 +5,9 @@ def square_array(array)
     
    # item2 = item * item
   #  new_array.push(item2)
-   array.collect  
+   array.collect {|item| item * item} 
  # end
- # return new_array
+ return array
 end
 
 p square_array([1,2,3])
